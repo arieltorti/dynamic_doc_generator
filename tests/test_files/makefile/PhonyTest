@@ -1,0 +1,11 @@
+# I'm not valid because I dont have @TARGET
+.PHONY: mytarget
+Not even a comment
+
+# @TARGET doesnt have `:`
+.PHONY: not-valid
+
+# @TARGET: A valid target
+.PHONY: valid
+    implementation
+# @TARGET: Just a comment without phony, not valid

@@ -1,0 +1,6 @@
+# Not a valid env variable because comment doesnt have @ENV
+VAR = 123
+
+# @ENV: A valid env variable.
+# With some extra comment
+valid_variable ?= 456
